@@ -1,7 +1,7 @@
 import Grid from '../components/grid'
 
 
-export const Shop = async () => {
+export const Shop =  () => {
   return (
     <div>
       <section className="relative z-30 w-full border-t-2 border-black bg-cream">

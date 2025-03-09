@@ -10,7 +10,6 @@ const Page = () => {
     <>
       <Container>
         <Hero />
-        {/* @ts-expect-error rsc */}
         <Shop />
       </Container>
     </>
