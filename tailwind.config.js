@@ -16,9 +16,9 @@ module.exports = {
       },
       colors: {
         black: '#000000',
-        cream: '#FFF5DC',
-        pink: '#F765B8',
-        teal: '#53E5D0'
+        cream: '#FFC857',
+        pink: '#FF521B',
+        teal: '#00798C'
       },
       fontFamily: {
         display: ['var(--font-nichrome)'],

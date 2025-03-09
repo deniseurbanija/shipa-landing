@@ -7,7 +7,7 @@ import { siteURL } from '~/lib/constants'
 
 import { Header } from './components/header'
 import { Providers } from './providers'
-import Footer from './sections/footer'
+
 
 const nichrome = localFont({
   src: [
