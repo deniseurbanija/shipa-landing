@@ -12,14 +12,6 @@ const Grid = () => {
         loading="eager"
         priority
       />
-      <Image
-        className="absolute -top-[10px] h-[18px] w-screen items-center justify-center sm:hidden"
-        src="/primitives/cart-hr.svg"
-        height={18}
-        width={500}
-        alt="hr"
-        loading="eager"
-      />
       <div className="pointer-events-none absolute inset-0 -z-10 h-[90%] bg-[url('/primitives/grid-bg.svg')] bg-[length:113px_113px] bg-center bg-repeat sm:h-[80%]  sm:bg-[length:416px_416px]">
         <div className="h-full"></div>
         <Image
@@ -27,14 +19,6 @@ const Grid = () => {
           src="/primitives/hr.svg"
           height={18}
           width={1900}
-          alt="hr"
-          loading="eager"
-        />
-        <Image
-          className="relative -top-[9px]  h-[18px] w-screen items-center justify-center sm:hidden "
-          src="/primitives/cart-hr.svg"
-          height={18}
-          width={500}
           alt="hr"
           loading="eager"
         />

@@ -46,7 +46,6 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           {/* @ts-expect-error rsc */}
           <Header />
           <main>{children}</main>
-          <Footer />
         </Providers>
       </body>
     </html>
